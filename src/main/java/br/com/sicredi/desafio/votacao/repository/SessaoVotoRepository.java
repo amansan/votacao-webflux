@@ -1,6 +1,6 @@
 package br.com.sicredi.desafio.votacao.repository;
 
-import com.sicredi.desafio.votacao.document.SessaoVotoDocument;
+import br.com.sicredi.desafio.votacao.document.SessaoVotoDocument;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 import org.springframework.data.mongodb.repository.Tailable;
 import reactor.core.publisher.Flux;

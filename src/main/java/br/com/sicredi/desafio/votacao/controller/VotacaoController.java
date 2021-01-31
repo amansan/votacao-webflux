@@ -1,10 +1,10 @@
 package br.com.sicredi.desafio.votacao.controller;
 
-import com.sicredi.desafio.votacao.document.SessaoVotoDocument;
-import com.sicredi.desafio.votacao.document.VotoDocument;
-import com.sicredi.desafio.votacao.request.VotoRequest;
-import com.sicredi.desafio.votacao.service.SessaoVotoService;
-import com.sicredi.desafio.votacao.service.VotoService;
+import br.com.sicredi.desafio.votacao.document.SessaoVotoDocument;
+import br.com.sicredi.desafio.votacao.document.VotoDocument;
+import br.com.sicredi.desafio.votacao.request.VotoRequest;
+import br.com.sicredi.desafio.votacao.service.SessaoVotoService;
+import br.com.sicredi.desafio.votacao.service.VotoService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;

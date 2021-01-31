@@ -1,8 +1,8 @@
 package br.com.sicredi.desafio.votacao.service;
 
-import com.sicredi.desafio.votacao.document.AssociadoDocument;
-import com.sicredi.desafio.votacao.repository.AssociadoRepository;
-import com.sicredi.desafio.votacao.request.AssociadoRequest;
+import br.com.sicredi.desafio.votacao.document.AssociadoDocument;
+import br.com.sicredi.desafio.votacao.repository.AssociadoRepository;
+import br.com.sicredi.desafio.votacao.request.AssociadoRequest;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;

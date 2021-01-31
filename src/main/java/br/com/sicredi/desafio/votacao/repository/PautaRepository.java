@@ -1,6 +1,6 @@
 package br.com.sicredi.desafio.votacao.repository;
 
-import com.sicredi.desafio.votacao.document.PautaDocument;
+import br.com.sicredi.desafio.votacao.document.PautaDocument;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
 public interface PautaRepository extends ReactiveMongoRepository<PautaDocument, String> {

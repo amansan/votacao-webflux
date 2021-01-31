@@ -1,9 +1,9 @@
 package br.com.sicredi.desafio.votacao.service;
 
-import com.sicredi.desafio.votacao.document.PautaDocument;
-import com.sicredi.desafio.votacao.document.SessaoVotoDocument;
-import com.sicredi.desafio.votacao.repository.PautaRepositoryNonReactive;
-import com.sicredi.desafio.votacao.repository.SessaoVotoRepository;
+import br.com.sicredi.desafio.votacao.document.PautaDocument;
+import br.com.sicredi.desafio.votacao.document.SessaoVotoDocument;
+import br.com.sicredi.desafio.votacao.repository.PautaRepositoryNonReactive;
+import br.com.sicredi.desafio.votacao.repository.SessaoVotoRepository;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.mongodb.core.CollectionOptions;

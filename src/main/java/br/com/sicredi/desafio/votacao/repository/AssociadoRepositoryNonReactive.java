@@ -1,6 +1,6 @@
 package br.com.sicredi.desafio.votacao.repository;
 
-import com.sicredi.desafio.votacao.document.AssociadoDocument;
+import br.com.sicredi.desafio.votacao.document.AssociadoDocument;
 import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.Optional;

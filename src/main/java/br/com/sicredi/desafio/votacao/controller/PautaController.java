@@ -1,7 +1,7 @@
 package br.com.sicredi.desafio.votacao.controller;
 
-import com.sicredi.desafio.votacao.document.PautaDocument;
-import com.sicredi.desafio.votacao.service.PautaService;
+import br.com.sicredi.desafio.votacao.document.PautaDocument;
+import br.com.sicredi.desafio.votacao.service.PautaService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.lang.NonNull;

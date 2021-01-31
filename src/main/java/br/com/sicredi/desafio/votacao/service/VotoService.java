@@ -1,10 +1,10 @@
 package br.com.sicredi.desafio.votacao.service;
 
-import com.sicredi.desafio.votacao.document.PautaDocument;
-import com.sicredi.desafio.votacao.document.SessaoVotoDocument;
-import com.sicredi.desafio.votacao.document.VotoDocument;
-import com.sicredi.desafio.votacao.repository.*;
-import com.sicredi.desafio.votacao.request.VotoRequest;
+import br.com.sicredi.desafio.votacao.document.PautaDocument;
+import br.com.sicredi.desafio.votacao.document.SessaoVotoDocument;
+import br.com.sicredi.desafio.votacao.document.VotoDocument;
+import br.com.sicredi.desafio.votacao.repository.*;
+import br.com.sicredi.desafio.votacao.request.VotoRequest;
 import lombok.AllArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -14,8 +14,8 @@ import reactor.core.publisher.Mono;
 import java.util.ArrayList;
 import java.util.List;
 
-import static com.sicredi.desafio.votacao.Constantes.VOTO_NAO;
-import static com.sicredi.desafio.votacao.Constantes.VOTO_SIM;
+import static br.com.sicredi.desafio.votacao.Constantes.VOTO_NAO;
+import static br.com.sicredi.desafio.votacao.Constantes.VOTO_SIM;
 import static java.util.Optional.ofNullable;
 
 @Service

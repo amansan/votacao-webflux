@@ -1,8 +1,8 @@
 package br.com.sicredi.desafio.votacao.controller;
 
-import com.sicredi.desafio.votacao.document.AssociadoDocument;
-import com.sicredi.desafio.votacao.request.AssociadoRequest;
-import com.sicredi.desafio.votacao.service.AssociadoService;
+import br.com.sicredi.desafio.votacao.document.AssociadoDocument;
+import br.com.sicredi.desafio.votacao.request.AssociadoRequest;
+import br.com.sicredi.desafio.votacao.service.AssociadoService;
 import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
