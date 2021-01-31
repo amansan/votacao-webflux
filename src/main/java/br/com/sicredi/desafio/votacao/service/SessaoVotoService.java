@@ -48,8 +48,6 @@ public class SessaoVotoService {
 
         Flux<SessaoVotoDocument> response = listarParaStream().take(Duration.ofMinutes(ofNullable(duracao).orElse(1)));
 
-        log.info("Encerrando sessão para pauta {}.", pauta);
-
         return response;
     }
 
